@@ -7,6 +7,7 @@ setDefaultTimeout(30 * 1000);
 
 Given('open browser', async function () {
     await CommonFun.openbrowser();
+    console.log(open browser)
 });
 
 When('Enter URL', async function () {
